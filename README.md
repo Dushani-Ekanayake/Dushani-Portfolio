@@ -1,4 +1,6 @@
-# Ishini Ekanayake — Portfolio
+# Dushani Ekanayake — Portfolio
+
+https://dushani-portfolio.vercel.app/
 
 A modern minimalist portfolio built with React + Vite + Tailwind CSS + Framer Motion.
 
