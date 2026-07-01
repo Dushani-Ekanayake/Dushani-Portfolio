@@ -1,4 +1,4 @@
-# Dushani Ekanayake — Portfolio
+## Portfolio
 
 https://dushani-portfolio.vercel.app/
 
