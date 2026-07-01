@@ -4,7 +4,7 @@
 // This is your single source of truth.
 // Update names, links, images, and descriptions in this file.
 // ============================================================
-export const resumeUrl = "images/cv/sql.pdf";
+export const resumeUrl = "CV/Sql.pdf";
 export const personalInfo = {
   name: "DUSHANI EKANAYAKE",
   nameShort: "DUSHANI",
