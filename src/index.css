@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans bg-white text-black dark:bg-zinc-950 dark:text-white transition-colors duration-300;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-accent rounded-full;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-4xl md:text-5xl font-black font-display uppercase tracking-tight;
+  }
+  .section-subtitle {
+    @apply text-zinc-500 dark:text-zinc-400 text-lg mt-2;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-black dark:bg-accent text-white dark:text-black font-bold px-6 py-3 rounded-none 
+           hover:bg-accent hover:text-black dark:hover:bg-white dark:hover:text-black transition-all duration-300;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-black dark:border-white text-black dark:text-white font-bold px-6 py-3 rounded-none 
+           hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300;
+  }
+  .card {
+    @apply bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800;
+  }
+  .accent-line {
+    @apply w-12 h-1 bg-accent;
+  }
+}
