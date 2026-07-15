@@ -18,7 +18,7 @@ export const personalInfo = {
   medium: "https://dushaniekanayake.medium.com/",                          // ✏️ new
   hashnode: "https://hashnode.com/@dushaniekanayake",                      // ✏️ new
 };
-export const profileImage = "Images/Portfolio.png";
+export const profileImage = "Images/Portfolio.jpg";
 export const heroImage = "Images/Hero.png";  
 // ============================================================
 // STATS (About Section)
