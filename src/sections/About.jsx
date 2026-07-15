@@ -28,7 +28,7 @@ export default function About() {
               <div className="absolute inset-0 border-2 border-accent rounded-2xl translate-x-4 translate-y-4" />
               <div className="absolute inset-0 border border-accent/30 rounded-2xl -translate-x-2 -translate-y-2" />
               {/* Profile Image */}
-              <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl shadow-zinc-300/50 dark:shadow-black/40">
+              <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl shadow-yellow-300/50 light:shadow-light/40">
                 <img
                   src={profileImage}
                   alt="Dushani"
