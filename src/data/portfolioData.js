@@ -207,7 +207,7 @@ export const projects = [
     image: "Images/Chatz.png", // e.g. "/src/assets/projects/project1.png"
     tech: ["React", "Node.js", "MongoDB","Express","Socket.IO"],  // ✏️ EDIT
     // ✏️ EDIT: your GitHub repo link
-    github: "https://github.com/Dushani-Ekanayake/Chatz-Real-Time-Chat-App",          // e.g. "https://github.com/ishini/project1"
+    github: "https://github.com/Dushani-Ekanayake/CHATZ---Frontend",          // e.g. "https://github.com/ishini/project1"
     // ✏️ EDIT: your live deployment link (Netlify, Vercel, etc.)
     live: "https://chatz-real-time-chat-app-iuse.vercel.app/",                              // e.g. "https://myproject.netlify.app"
     featured: true,
